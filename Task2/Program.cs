@@ -14,8 +14,8 @@ namespace Task2
             Определить сумму максимального и минимального элементов массива. */
 
             int[] array = new int[15];
-
             Random random = new Random();
+
             for (int i = 0; i < 15; i++)
             {
                 array[i] = random.Next(0, 50);
