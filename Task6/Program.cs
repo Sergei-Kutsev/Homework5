@@ -17,7 +17,7 @@ namespace Task6
             Console.WriteLine("Введите размерность матрицы");
             int N = Convert.ToInt32(Console.ReadLine());
             int[,] square = new int[N, N];
-            Console.WriteLine("Заполните значения матрицы размером {0} x {0}", N);
+            Console.WriteLine("Заполните значения матрицы {0}x{0}", N);
             for (int i = 0; i < N; i++)
             {
                 for (int j = 0; j < N; j++)
